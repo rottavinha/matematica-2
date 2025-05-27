@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    coloque aqui a navegação do site
+
+</header>
+<main>
+
+    coloque aqui os elementos de corpo do seu site
+
+
+</main>
+<footer>
+
+    coloque aqui os dados de endereços do seu cliente
+   
+</footer>
+
+   
+</body>
+</html>
+
+---------------------------------
+CSS
+------------------------------------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: papayawhip;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(70, 70, 207);
+    height: 200px;
+}
+
+main{
+    background-color: rgb(206, 67, 120);
+    height: 500px;
+}
+
+footer{
+    background-color: rgb(92, 226, 87);
+    height: 200px;
+}
